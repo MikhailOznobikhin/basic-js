@@ -1,6 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function transform(arr) {
+  // throw new CustomError('Not implemented');
   if(!arr|| !Array.isArray(arr)) throw Error
   let ot = []
   if(arr.length === 0) return ot
